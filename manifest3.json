@@ -6,7 +6,7 @@
   "related_applications": [
     {
       "platform": "play",
-      "id": "com.clouddentistry.clouddentistry"
+      "id": "com.google.samples.apps.iosched"
     }
   ],
   "display": "standalone",
