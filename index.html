@@ -3,7 +3,7 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Web App Install Banner: Related Apps (Android currently) Sample</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="https://sequielo.github.io/manifest.json">
+    <link rel="manifest" href="https://sequielo.github.io/manifest2.json">
   </head>
   <body>
     <h1>Web App Install Banner: Related Apps (Android currently) Sample</h1>
@@ -29,8 +29,9 @@
       window.addEventListener('load', function() {
         console.log('loaded');
         var outputElement = document.getElementById('output');
-               
+        window.my_beforeinstallprompt = null;
         window.addEventListener('beforeinstallprompt', function(e) {
+          my_beforeinstallprompt = e;
           outputElement.textContent = 'beforeinstallprompt Event fired';
         });
       });
