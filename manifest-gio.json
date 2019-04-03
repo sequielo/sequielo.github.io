@@ -1,0 +1,51 @@
+{
+  "short_name": "Cloud Dentistry",
+  "name": "Cloud Dentistry",
+  "start_url": "./index-gio.html",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.google.samples.apps.iosched"
+    }
+  ],
+  "display": "standalone",
+  "icons": [
+    {
+     "src": "//d19s4dgncoskm5.cloudfront.net/assets/favicon/android-icon-36x36-e3b41010fa9236b168b8e1103c14e69d60e7ed2c00171ffdad7e3e74bd0b7ef9.png",
+     "sizes": "36x36",
+     "type": "image\/png",
+     "density": "0.75"
+    },
+    {
+     "src": "//d19s4dgncoskm5.cloudfront.net/assets/favicon/android-icon-48x48-31b22121307c7c69631dcd2fa487053f96cb4ead34882cf86aa4a03d76d7dd67.png",
+     "sizes": "48x48",
+     "type": "image\/png",
+     "density": "1.0"
+    },
+    {
+     "src": "//d19s4dgncoskm5.cloudfront.net/assets/favicon/android-icon-72x72-7a095d73eb0861fd1cffdc58fddf815d3a5b004c2cb60b8b099ab4dae0ad3456.png",
+     "sizes": "72x72",
+     "type": "image\/png",
+     "density": "1.5"
+    },
+    {
+     "src": "//d19s4dgncoskm5.cloudfront.net/assets/favicon/android-icon-96x96-aba848fe80095df5a69ab179b37ed9e835841171bb00570e2d767a9f2c951db1.png",
+     "sizes": "96x96",
+     "type": "image\/png",
+     "density": "2.0"
+    },
+    {
+     "src": "//d19s4dgncoskm5.cloudfront.net/assets/favicon/android-icon-144x144-d2a75ea660381b8615724fda1c3a9616ca2fc448b0846e7a3369c31a8c2dac0a.png",
+     "sizes": "144x144",
+     "type": "image\/png",
+     "density": "3.0"
+    },
+    {
+     "src": "//d19s4dgncoskm5.cloudfront.net/assets/favicon/android-icon-192x192-c546d3aa0426bf0d94fcdf112b868cd1709bcb1b7cbef5761ab0be1046ea43e0.png",
+     "sizes": "192x192",
+     "type": "image\/png",
+     "density": "4.0"
+    }
+  ]
+}
